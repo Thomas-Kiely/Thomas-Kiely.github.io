@@ -2,7 +2,7 @@
 title: "Tensor Networks in the Thermodynamic Limit"
 layout: single-portfolio
 author_profile: true
-excerpt: "<img src='/images/BoseHubbardPanelCropped.png' alt=''>"
+excerpt: "<img src='/images/boseHubbardPanelCropped.png' alt=''>"
 collection: research
 order_number: 3
 header: 
