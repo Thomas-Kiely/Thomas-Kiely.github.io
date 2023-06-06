@@ -8,6 +8,7 @@ venue: 'Physical Review B'
 paperurl: 'http://thomas-kiely.github.io/files/fermi_hubbard_weak_coupling_paper.pdf'
 link: 'https://doi.org/10.1103/PhysRevB.104.165143'
 citation: 'Thomas G. Kiely and Erich J. Mueller, Phys. Rev. B 104, 165143 (2021)'
+arxiv: 'https://arxiv.org/abs/2106.04479'
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.
 

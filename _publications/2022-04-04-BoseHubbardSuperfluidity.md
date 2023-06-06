@@ -8,6 +8,7 @@ venue: 'Physical Review B'
 paperurl: 'http://thomas-kiely.github.io/files/bose_hubbard_superfluidity_paper.pdf'
 link: 'https://doi.org/10.1103/PhysRevB.105.134502'
 citation: 'Thomas G. Kiely and Erich J. Mueller, Phys. Rev. B 105, 134502 (2022)'
+arxiv: 'https://arxiv.org/abs/2202.00669'
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.
 

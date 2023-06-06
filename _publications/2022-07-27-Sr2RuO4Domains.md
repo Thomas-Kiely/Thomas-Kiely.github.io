@@ -8,6 +8,7 @@ venue: 'Physical Review B'
 paperurl: 'http://thomas-kiely.github.io/files/sr2ruo4_domains.pdf'
 link: 'https://doi.org/10.1103/PhysRevB.106.024520'
 citation: 'Sayak Ghosh, Thomas G. Kiely, Arkady Shekhter, F. Jerzembeck, N. Kikugawa, Dmitry A. Sokolov, A. P. Mackenzie, and B. J. Ramshaw, Phys. Rev. B 106, 024520 (2022)'
+arxiv: 'https://arxiv.org/abs/2109.00041'
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.
 

@@ -8,4 +8,5 @@ venue: 'Physical Review A'
 paperurl: 'http://thomas-kiely.github.io/files/tfim_xy_paper.pdf'
 link: 'https://doi.org/10.1103/PhysRevA.97.023611'
 citation: 'Thomas G. Kiely and J. K. Freericks, Phys. Rev. A 97, 023611 (2018)'
+arxiv: 'https://arxiv.org/abs/1711.04386'
 ---

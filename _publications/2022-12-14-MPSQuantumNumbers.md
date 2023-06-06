@@ -7,7 +7,9 @@ date: 2022-12-14
 venue: 'Physical Review B'
 paperurl: 'http://thomas-kiely.github.io/files/quantum_numbers_paper.pdf'
 link: 'https://doi.org/10.1103/PhysRevB.106.235126'
+arxiv: 'https://arxiv.org/abs/2207.03465'
 citation: 'Thomas G. Kiely and Erich J. Mueller, Phys. Rev. B 106, 235126 (2022)'
+doi: '10.1103/PhysRevB.106.235126'
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.
 
