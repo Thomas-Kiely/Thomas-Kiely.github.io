@@ -13,8 +13,6 @@ These are beautiful experiments that realize some of the most extreme conditions
 
 Of course, trapping and controlling atoms is very tricky, and the long-term goals of quantum simulation are still a ways off. As a theorist, this is what makes the field so interesting. Whether the contributions are experiment- or model-driven, there are a range of ways for theorists to contribute to the growth of this field.
 
-<!-- The links below will take you to descriptions of a few of the projects I've worked on over the course of my graduate and undergraduate education. While most projects are centered around these AMO-type applications, I've also had the opportunity to work on some more conventional condensed matter problems.  -->
-
 <nbsp>
 
 {% include base_path %}

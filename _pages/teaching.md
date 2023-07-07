@@ -5,7 +5,7 @@ permalink: /teaching/
 title: "Teaching"
 ---
 
-Over the course of my undergraduate and graduate education, I've had the opportunity to be a teaching assistant (TA) for a wide range of courses. This has exposed me to the nuts and bolts of physics education at all levels of experience and in a wide variety of settings, including labs, discussion sections, lectures, flipped classrooms and remote/hybrid classrooms. I find a lot of fulfillment in teaching, particularly in the challenge of taking a concept and breaking it down into digestible pieces. I almost always learn something from this process, even when teaching material that I've been comfortable with for over a decade. Below you'll find a list of my teaching experiences as well as my student evaluations and comments (when available).
+Over the course of my undergraduate and graduate education, I've had the opportunity to be a teaching assistant (TA) for a wide range of courses. This has exposed me to the nuts and bolts of physics education at all levels of experience and in a wide variety of settings, including labs, discussion sections, lectures, flipped classrooms and remote/hybrid classrooms. I find a lot of fulfillment in teaching, particularly in the challenge of taking a concept and breaking it down into digestible pieces. I almost always learn something from this process. Below you'll find a list of my teaching experiences as well as my student evaluations and comments, when available.
 
 ## 2023
 - TA for **PHYS-2214: Physics III: Oscillations, Waves, and Quantum Physics** (Cornell, Spring 2023)
