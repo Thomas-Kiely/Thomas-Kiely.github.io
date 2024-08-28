@@ -10,7 +10,7 @@ redirect_from:
 
 ## Biography
 
-I am a Postdoctoral Scholar at the [Kavli Institute for Theoretical Physics](https://www.kitp.ucsb.edu). I received my Ph.D in theoretical physics from [Cornell University](https://www.cornell.edu), where I studied under [Erich Mueller](https://www.lassp.cornell.edu/erich-mueller-group). Prior to that I got my undergraduate degree in Physics and Italian from [Georgetown University](https://www.georgetown.edu/) (2014-2018), where I rowed on the lightweight crew team. Outside of physics, I enjoy cooking, traveling, hiking, rock climbing and playing tennis.
+I am a Postdoctoral Fellow at the [Kavli Institute for Theoretical Physics](https://www.kitp.ucsb.edu). I received my Ph.D in theoretical physics from [Cornell University](https://www.cornell.edu), where I studied under [Erich Mueller](https://www.lassp.cornell.edu/erich-mueller-group). Prior to that I got my undergraduate degree in Physics and Italian from [Georgetown University](https://www.georgetown.edu/) (2014-2018), where I rowed on the lightweight crew team. Outside of physics, I enjoy cooking, traveling, hiking, rock climbing and playing tennis.
 
 ## Research Description
 
