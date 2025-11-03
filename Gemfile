@@ -20,6 +20,14 @@ gem "tzinfo-data"
 
 gem "webrick"
 
+gem "csv"
+
+gem "base64"
+
+gem "bigdecimal"
+
+gem "liquid", "~> 4.0"
+
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
