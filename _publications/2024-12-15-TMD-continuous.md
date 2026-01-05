@@ -2,12 +2,13 @@
 title: "Continuous Wigner-Mott transition at ν=1/5"
 collection: publications
 permalink: /publication/2025-12-15-TMD-continuous
-excerpt: 'Using infinite matrix product states (iMPS), we study the quantum flucutation-induced (zero-temperature) phase transition between a Wigner-Mott (WM) insulator and a metallic Fermi liquid at electronic filling ν=1/5 (corresponding to a total filling of 2/5). This particular WM insulator has both a spin and a charge gap, making it particularly amenable to study using an iMPS ansatz. On a two-leg-ladder geometry, we find that there is an intermediate gapless phase between the WM insulator and the gapless Luttinger liquid -- a Luther-Emery liquid. This state is a one-dimensional analogue to a fluctuating superconductor: there is no gap to 2-particle Cooper pair excitations, but the single-electron excitation is gapped. This state often arises due to an attractive interaction. Here, we believe that this occurs due to residual pairing between spins in the WM insulating phase. On the five-leg cylinder, we find a direct transition between the Wigner-Mott and Fermi liquid phases. We argue that this transition is continuous due to a scaling collapse in the vicinity of the critical point. As the spin and charge gaps vanish simultaneously, the existence of a continuous transition is necessarily beyond the Landau-Ginzburg paradigm.'
+# excerpt: 'Using infinite matrix product states (iMPS), we study the quantum flucutation-induced (zero-temperature) phase transition between a Wigner-Mott (WM) insulator and a metallic Fermi liquid at electronic filling ν=1/5 (corresponding to a total filling of 2/5). This particular WM insulator has both a spin and a charge gap, making it particularly amenable to study using an iMPS ansatz. On a two-leg-ladder geometry, we find that there is an intermediate gapless phase between the WM insulator and the gapless Luttinger liquid -- a Luther-Emery liquid. This state is a one-dimensional analogue to a fluctuating superconductor: there is no gap to 2-particle Cooper pair excitations, but the single-electron excitation is gapped. This state often arises due to an attractive interaction. Here, we believe that this occurs due to residual pairing between spins in the WM insulating phase. On the five-leg cylinder, we find a direct transition between the Wigner-Mott and Fermi liquid phases. We argue that this transition is continuous due to a scaling collapse in the vicinity of the critical point. As the spin and charge gaps vanish simultaneously, the existence of a continuous transition is necessarily beyond the Landau-Ginzburg paradigm.'
+excerpt: ''
 date: 2024-12-15
 venue: 'Physical Review B Letters'
 paperurl: 'http://thomas-kiely.github.io/files/PhysRevB.110.L241112.pdf'
 link: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.L241112'
-citation: "Thomas G. Kiely and Debanjan Chowdhury, Phys. Rev. B 110, L241112 (2024) [Editor's Suggestion]"
+citation: "Thomas G. Kiely and Debanjan Chowdhury, Phys. Rev. B <b>110</b>, L241112 (2024) [<em>Editor's Suggestion</em>]"
 doi: '10.1103/PhysRevB.110.L241112'
 arxiv: 'https://arxiv.org/abs/2305.13355'
 ---
