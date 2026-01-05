@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Thomas Kiely"
-  avatar           : "cropped_jtree_hs.JPG" #"IMG_0630.HEIC" #"Headshot.JPG"
+  avatar           : "cropped_jtree_hs.jpg" #"IMG_0630.HEIC" #"Headshot.JPG"
   bio              : "Postdoctoral Scholar @ KITP"
   location         : "Santa Barbara, CA"
   employer         : "KITP"
