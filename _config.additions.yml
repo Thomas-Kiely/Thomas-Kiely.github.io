@@ -1,0 +1,20 @@
+# Merge these into your existing _config.yml (don't replace the file).
+
+url: "https://thomas-kiely.github.io"   # needed for canonical/og:image absolute URLs
+baseurl: ""
+
+plugins:
+  - jekyll-redirect-from                 # /preprints/ now redirects to /publications/
+
+# Keep your existing `collections:` block (teaching, research, ...) as it is.
+
+# --- SEO housekeeping ---
+# The old per-paper pages (/publication/...) are no longer linked from the new site and
+# would show up in search as bare title-only pages. Turn their output off in your existing
+# `collections:` block (keep everything else in it as it is):
+#
+# collections:
+#   publications:
+#     output: false
+#   preprints:
+#     output: false

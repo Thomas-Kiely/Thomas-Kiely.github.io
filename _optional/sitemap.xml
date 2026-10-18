@@ -1,0 +1,17 @@
+---
+layout: null
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for p in site.pages %}
+  {%- if p.layout and p.sitemap != false and p.url != "/404.html" %}
+  <url><loc>{{ p.url | replace: "index.html", "" | absolute_url }}</loc></url>
+  {%- endif %}
+{%- endfor %}
+{%- for d in site.documents %}
+  {%- if d.layout and d.sitemap != false and d.collection != "publications" and d.collection != "preprints" %}
+  <url><loc>{{ d.url | absolute_url }}</loc></url>
+  {%- endif %}
+{%- endfor %}
+</urlset>

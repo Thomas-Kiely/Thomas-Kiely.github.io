@@ -3,14 +3,14 @@
 title: "Transport Properties"
 layout: single-portfolio
 author_profile: true
-excerpt: "<img src='/images/newXTempsFig2_nobg.png' alt=''>"
+excerpt: "<img src='/images/newXTempsFig2.png' alt=''>"
 collection: research
 order_number: 1
 header: 
   og_image: "/annotatedXTemps.png"
 ---
 
-<img src="/images/newXTempsFig2_nobg.png" alt="isolated" width="400"/>
+<img src="/images/newXTempsFig2.png" alt="isolated" width="600"/>
 
 ## Background
 

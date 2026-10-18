@@ -1,0 +1,13 @@
+<ul class="themes">
+  {%- for t in site.data.research %}
+  {%- assign everything = site.data.publications | concat: site.data.preprints %}
+  {%- assign n = everything | where_exp: "x", "x.tags contains t.tag" | size %}
+  <li class="theme">
+    <div>
+      <h3><a href="{{ t.url | relative_url }}">{{ t.title }}</a></h3>
+      <p>{{ t.summary }}</p>
+    </div>
+    <a class="theme-count" href="{{ '/publications/' | relative_url }}#{{ t.tag }}">{{ n }} paper{% if n != 1 %}s{% endif %}</a>
+  </li>
+  {%- endfor %}
+</ul>

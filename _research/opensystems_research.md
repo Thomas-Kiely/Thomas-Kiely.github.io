@@ -2,14 +2,14 @@
 title: "Open & Monitored Dynamics"
 layout: single-portfolio
 author_profile: true
-excerpt: "<img src='/images/swssb_worldlines.pdf' alt=''>"
+excerpt: "<img src='/images/swssb_worldlines.png' alt=''>"
 collection: research
 order_number: 2
 header: 
   og_image: "/swssb_worldlines.pdf"
 ---
 
-<img src="/images/swssb_worldlines.pdf" alt="isolated" width="300"/>
+<img src="/images/swssb_worldlines.png" alt="isolated" width="400"/>
 
 ## Background
 

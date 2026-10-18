@@ -1,0 +1,46 @@
+# Preprints, newest first. They appear in a "Preprints" group at the top of /publications/.
+# Move an entry into publications.yml (with journal/volume/article/year) once it is published.
+# Fields: title, authors, venue (free text shown instead of journal/volume), year, tags, links.
+# `tags` are my best guesses: any of transport, open, phases, numerics.
+
+- title: Selective control and imaging of Higgs and Goldstone modes with a quantum simulator
+  authors: Connie Miao, Pranjal Praneel, Thomas G. Kiely, Eliott Rosenberg, Nicole S. Ticea, Pedram Roushan, Erich Mueller, Andre G. Petukhov
+  venue: "arXiv:2610.19219"
+  year: 2026
+  tags: [phases, numerics]
+  selected: true
+  links:
+    arxiv: https://arxiv.org/abs/2610.19219
+
+- title: Checkerboard Bose Hubbard ladders using transmon arrays
+  authors: Pranjal Praneel, Thomas G. Kiely, Andre G. Petukhov and Erich J. Mueller
+  venue: "arXiv:2605.07906"
+  year: 2026
+  tags: [phases, numerics]
+  links:
+    arxiv: https://arxiv.org/abs/2605.07906
+
+- title: Observation of strong-to-weak spontaneous symmetry breaking in a dephased Fermi gas
+  authors: Si Wang, Thomas G. Kiely, Dorothee Tell, Johannes Obermeyer, Marnix Barendregt, Petar Bojović, Philipp M. Preiss, Abhijat Sarma, Titus Franz, Matthew P. A. Fisher, Cenke Xu and Immanuel Bloch
+  venue: "arXiv:2604.16137"
+  year: 2026
+  tags: [open, numerics]
+  selected: true
+  links:
+    arxiv: https://arxiv.org/abs/2604.16137
+
+- title: "Strong-to-weak symmetry breaking in open quantum systems: From discrete particles to continuum hydrodynamics"
+  authors: Jacob Hauser, Kaixiang Su, Hyunsoo Ha, Jerome Lloyd, Thomas G. Kiely, Romain Vasseur, Sarang Gopalakrishnan, Cenke Xu and Matthew P. A. Fisher
+  venue: "arXiv:2602.16045"
+  year: 2026
+  tags: [open]
+  links:
+    arxiv: https://arxiv.org/abs/2602.16045
+
+- title: Observation of disorder-induced superfluidity
+  authors: Google Quantum AI and collaborators
+  venue: "arXiv:2512.21416"
+  year: 2025
+  tags: [phases]
+  links:
+    arxiv: https://arxiv.org/abs/2512.21416v1

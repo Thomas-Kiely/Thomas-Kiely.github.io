@@ -1,0 +1,30 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+description: "Teaching experience of Thomas Kiely: courses taught as a teaching assistant, with instructor evaluations."
+---
+<div class="container page">
+  <h1 class="page-title">Teaching</h1>
+
+  <div class="prose">
+    <p>Over the course of my undergraduate and graduate education, I've had the opportunity to be a teaching assistant (TA)
+    for a wide range of courses. This has exposed me to the nuts and bolts of physics education at all levels of experience
+    and in a wide variety of settings, including labs, discussion sections, lectures, flipped classrooms and remote/hybrid
+    classrooms. I find a lot of fulfillment in teaching, particularly in the challenge of taking a concept and breaking it
+    down into digestible pieces. I almost always learn something from this process. Below you'll find a list of my teaching
+    experiences as well as my student evaluations and comments, when available.</p>
+  </div>
+
+  {%- assign by_year = site.data.teaching | group_by: "year" | sort: "name" | reverse %}
+  {%- for g in by_year %}
+  <section class="pub-group" aria-labelledby="t-{{ g.name }}">
+    <h2 class="pub-year" id="t-{{ g.name }}">{{ g.name }}</h2>
+    <ul class="pubs">
+      {%- for c in g.items %}
+        {% include course-item.html course=c %}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
+</div>

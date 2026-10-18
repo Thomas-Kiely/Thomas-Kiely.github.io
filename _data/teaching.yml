@@ -1,0 +1,112 @@
+# Teaching entries, newest first. The Teaching page groups them by `year`.
+# Fields:
+#   year, term        e.g. 2023, "Spring 2023"
+#   role              e.g. "Teaching assistant", "Grader"
+#   code, title       course number and name
+#   institution       shown after the term
+#   level             "Undergraduate" or "Graduate"
+#   instructor        who led the course (optional)
+#   description       what you did (plain text)
+#   evaluations       optional list of { label, url }; shown as links under the entry
+
+- year: 2023
+  term: Spring 2023
+  role: Teaching assistant
+  code: PHYS-2214
+  title: "Physics III: Oscillations, Waves, and Quantum Physics"
+  institution: Cornell
+  level: Undergraduate
+  instructor: Glenn Case
+  description: Led two discussion sections and a lab section, created weekly quizzes, graded homework, proctored and graded exams.
+  evaluations:
+    - { label: "Section 204", url: /files/Spring_2023-PHYS_2214-DIS_204_Kiely.pdf }
+    - { label: "Section 206", url: /files/Spring_2023-PHYS_2214-DIS_206_Kiely.pdf }
+    - { label: "Lab 407",     url: /files/Spring_2023-PHYS_2214-LAB_407_Kiely.pdf }
+
+- year: 2022
+  term: Fall 2022
+  role: Grader
+  code: PHYS-7653
+  title: "Statistical Physics II"
+  institution: Cornell
+  level: Graduate
+  instructor: Chao-Ming Jian
+  description: Graded problem sets and wrote solutions.
+
+- year: 2022
+  term: Spring 2022
+  role: Teaching assistant
+  code: PHYS-2213
+  title: "Physics II: Electromagnetism"
+  institution: Cornell
+  level: Undergraduate
+  instructor: Alan Giambattista
+  description: Led three discussion sections and twice-weekly office hours, graded homework, proctored and graded exams.
+  evaluations:
+    - { label: "Section 203", url: /files/Spring_2022-PHYS_2213-DIS_203_Kiely.pdf }
+    - { label: "Section 207", url: /files/Spring_2022-PHYS_2213-DIS_207_Kiely.pdf }
+    - { label: "Section 214", url: /files/Spring_2022-PHYS_2213-DIS_214_Kiely.pdf }
+
+- year: 2020
+  term: Fall 2020
+  role: Teaching assistant
+  code: PHYS-2213
+  title: "Physics II: Electromagnetism"
+  institution: Cornell
+  level: Undergraduate
+  instructor: Ivan Bazarov
+  description: Course held entirely online; led three discussion sections and twice-weekly office hours, graded homework, proctored and graded exams.
+  evaluations:
+    - { label: "Section 207", url: /files/Fall_2020-PHYS_2213-DIS_207_Kiely.pdf }
+    - { label: "Section 212", url: /files/Fall_2020-PHYS_2213-DIS_212_Kiely.pdf }
+    - { label: "Section 220", url: /files/Fall_2020-PHYS_2213-DIS_220_Kiely.pdf }
+
+- year: 2020
+  term: Spring 2020
+  role: Teaching assistant
+  code: PHYS-1102
+  title: "General Physics II"
+  institution: Cornell
+  level: Undergraduate
+  instructor: Nick Taylor
+  description: Staffed a flipped, self-taught classroom for 15 hours per week, set up student-run labs, graded lab notebooks, proctored and graded exams. Taught extensively over Zoom due to COVID-19.
+
+- year: 2019
+  term: Spring 2019
+  role: Teaching assistant
+  code: PHYS-2208
+  title: "Fundamentals of Physics"
+  institution: Cornell
+  level: Undergraduate
+  instructor: Glenn Case
+  description: Led two discussion sections and a lab section, created weekly quizzes, graded homework, proctored and graded exams.
+
+- year: 2018
+  term: Fall 2018
+  role: Teaching assistant
+  code: PHYS-1101
+  title: "General Physics I"
+  institution: Cornell
+  level: Undergraduate
+  instructor: Nick Taylor
+  description: Staffed a flipped, self-taught classroom for 15 hours per week, set up student-run labs, graded lab notebooks, proctored and graded exams.
+
+- year: 2017
+  term: Fall 2017
+  role: Teaching assistant
+  code: PHYS-251
+  title: "Intermediate Mechanics"
+  institution: Georgetown
+  level: Undergraduate
+  instructor: Peter Olmsted
+  description: Held office hours, led a weekly tutorial, graded problem sets, proctored exams.
+
+- year: 2015
+  term: Fall 2015
+  role: Teaching assistant
+  code: PHYS-153
+  title: "Relativity and Quantum Physics"
+  institution: Georgetown
+  level: Undergraduate
+  instructor: Joe Serene
+  description: Held office hours, graded problem sets.

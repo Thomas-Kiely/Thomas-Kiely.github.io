@@ -1,0 +1,183 @@
+# Newest first. Fields:
+#   title    inline math with $...$ is rendered by KaTeX
+#   authors  your name is bolded automatically when written exactly "Thomas G. Kiely"
+#   journal, volume, article, year
+#   note     optional badge, e.g. "Editor's Suggestion"
+#   tags     any of: transport, open, phases, numerics  (my best guesses -- please check)
+#   selected true => shown on the home page
+#   links    doi / arxiv / pdf (full URL or /files/... path)
+
+- title: Thermodynamics and melting of a quantum quasicrystal
+  authors: Ethan C. McGarrigle, Thomas G. Kiely, Leon Balents and Glenn H. Fredrickson
+  journal: Phys. Rev. Lett.
+  volume: 137
+  article: "063401"
+  year: 2026
+  tags: [phases, numerics]
+  selected: true
+  links:
+    doi: https://doi.org/10.1103/3646-v33q
+    pdf: /files/3646-v33q.pdf
+
+- title: Exact kinetic propagators for coherent state complex Langevin simulations
+  authors: Thomas G. Kiely, Ethan C. McGarrigle and Glenn H. Fredrickson
+  journal: Phys. Rev. A
+  volume: 113
+  article: "023310"
+  year: 2026
+  tags: [numerics]
+  links:
+    doi: https://doi.org/10.1103/p87t-vyc9
+    arxiv: https://arxiv.org/abs/2508.11057v2
+    pdf: /files/p87t-vyc9.pdf
+
+- title: Phase transition of topological index driven by dephasing
+  authors: Thomas G. Kiely and Cenke Xu
+  journal: Phys. Rev. B
+  volume: 112
+  article: L201112
+  year: 2025
+  tags: [open]
+  links:
+    doi: https://journals.aps.org/prb/abstract/10.1103/8vtp-khnq
+    arxiv: https://arxiv.org/abs/2506.04102v2
+    pdf: /files/8vtp-khnq.pdf
+
+- title: Effective conformal field theory generated from pure and dephased Chern insulator
+  authors: Abhijat Sarma, Yimu Bao, Nayan Myerson-Jain, Thomas G. Kiely and Cenke Xu
+  journal: Phys. Rev. B
+  volume: 112
+  article: "085130"
+  year: 2025
+  tags: [open]
+  links:
+    doi: https://journals.aps.org/prb/abstract/10.1103/nn2m-w4vk
+    arxiv: https://arxiv.org/abs/2503.11788v2
+    pdf: /files/nn2m-w4vk.pdf
+
+- title: Spin liquid and superconductivity emerging from steady states and measurements
+  authors: Kaixiang Su, Abhijat Sarma, Marcus Bintz, Thomas G. Kiely, Yimu Bao, Matthew P. A. Fisher and Cenke Xu
+  journal: Phys. Rev. Lett.
+  volume: 135
+  article: "050403"
+  year: 2025
+  tags: [open]
+  selected: false
+  links:
+    doi: https://journals.aps.org/prl/abstract/10.1103/pjs3-14cc
+    arxiv: https://arxiv.org/abs/2408.07125
+    pdf: /files/pjs3-14cc.pdf
+
+- title: Vacancy-assisted superfluid drag
+  authors: Thomas G. Kiely, Chao Zhang and Erich J. Mueller
+  journal: Phys. Rev. A
+  volume: 111
+  article: "053302"
+  year: 2024
+  note: Editor's Suggestion
+  tags: [transport, numerics]
+  selected: true
+  links:
+    doi: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.111.053302
+    arxiv: https://arxiv.org/abs/2502.00542
+    pdf: /files/PhysRevA.111.053302.pdf
+
+- title: Continuous Wigner-Mott transition at $\nu=1/5$
+  authors: Thomas G. Kiely and Debanjan Chowdhury
+  journal: Phys. Rev. B
+  volume: 110
+  article: L241112
+  year: 2024
+  note: Editor's Suggestion
+  tags: [phases, numerics]
+  selected: false
+  links:
+    doi: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.110.L241112
+    arxiv: https://arxiv.org/abs/2305.13355
+    pdf: /files/PhysRevB.110.L241112.pdf
+
+- title: Multisite gates for state preparation in quantum simulation of the Bose-Hubbard model
+  authors: Pranjal Praneel, Thomas G. Kiely, Erich J. Mueller and Andre G. Petukhov
+  journal: Phys. Rev. A
+  volume: 110
+  article: "062615"
+  year: 2024
+  tags: [phases]
+  links:
+    doi: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.062615
+    arxiv: https://arxiv.org/abs/2410.00973
+    pdf: /files/PhysRevA.110.062615.pdf   # NOTE: your current link has no .pdf extension; check the filename
+
+- title: High-temperature transport in the one-dimensional mass-imbalanced Fermi-Hubbard model
+  authors: Thomas G. Kiely and Erich J. Mueller
+  journal: Phys. Rev. A
+  volume: 109
+  article: "063318"
+  year: 2024
+  tags: [transport, numerics]
+  links:
+    doi: https://doi.org/10.1103/PhysRevA.109.063318
+    arxiv: https://arxiv.org/abs/2404.08076
+    pdf: /files/highT_transport_mass_imbalance_paper.pdf
+
+- title: Role of conservation laws in the density matrix renormalization group
+  authors: Thomas G. Kiely and Erich J. Mueller
+  journal: Phys. Rev. B
+  volume: 106
+  article: "235126"
+  year: 2022
+  tags: [numerics]
+  links:
+    doi: https://doi.org/10.1103/PhysRevB.106.235126
+    arxiv: https://arxiv.org/abs/2207.03465
+    pdf: /files/quantum_numbers_paper.pdf
+
+- title: "Strong increase in ultrasound attenuation below $T_c$ in Sr$_2$RuO$_4$: Possible evidence for domains"
+  authors: Sayak Ghosh, Thomas G. Kiely, Arkady Shekhter, F. Jerzembeck, N. Kikugawa, Dmitry A. Sokolov, A. P. Mackenzie and B. J. Ramshaw
+  journal: Phys. Rev. B
+  volume: 106
+  article: "024520"
+  year: 2022
+  tags: [phases]
+  links:
+    doi: https://doi.org/10.1103/PhysRevB.106.024520
+    arxiv: https://arxiv.org/abs/2109.00041
+    pdf: /files/sr2ruo4_paper.pdf
+
+- title: Superfluidity in the one-dimensional Bose-Hubbard model
+  authors: Thomas G. Kiely and Erich J. Mueller
+  journal: Phys. Rev. B
+  volume: 105
+  article: "134502"
+  year: 2022
+  tags: [transport, phases, numerics]
+  links:
+    doi: https://doi.org/10.1103/PhysRevB.105.134502
+    arxiv: https://arxiv.org/abs/2202.00669
+    pdf: /files/bose_hubbard_superfluidity_paper.pdf
+
+- title: "Transport in the 2D Fermi-Hubbard model: Lessons from weak coupling"
+  authors: Thomas G. Kiely and Erich J. Mueller
+  journal: Phys. Rev. B
+  volume: 104
+  article: "165143"
+  year: 2021
+  note: Editor's Suggestion
+  tags: [transport]
+  selected: true
+  links:
+    doi: https://doi.org/10.1103/PhysRevB.104.165143
+    arxiv: https://arxiv.org/abs/2106.04479
+    pdf: /files/fermi_hubbard_weak_coupling_paper.pdf
+
+- title: Relationship between the transverse-field Ising model and the XY model via the rotating-wave approximation
+  authors: Thomas G. Kiely and J. K. Freericks
+  journal: Phys. Rev. A
+  volume: 97
+  article: "023611"
+  year: 2018
+  tags: [phases]
+  links:
+    doi: https://doi.org/10.1103/PhysRevA.97.023611
+    arxiv: https://arxiv.org/abs/1711.04386
+    pdf: /files/tfim_xy_paper.pdf

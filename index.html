@@ -1,0 +1,101 @@
+---
+layout: default
+title: Home
+permalink: /
+body_class: home
+---
+{%- assign p = site.data.profile -%}
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>{{ p.name }}</h1>
+      <div class="who">
+        <img class="avatar" src="{{ p.headshot | relative_url }}" alt="Portrait of {{ p.name }}" width="128" height="128" style="object-position: {{ p.headshot_position | default: '50% 20%' }}">
+        <p>{{ p.role }}<br>{{ p.affiliation }}</p>
+      </div>
+      <p class="lede">{{ p.tagline }}</p>
+      <p class="actions">
+        <a class="btn primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="btn" href="{{ '/cv/' | relative_url }}">CV</a>
+      </p>
+      <ul class="inline-links">
+        <li><a href="mailto:{{ p.email }}">Email</a></li>
+        {%- for l in p.links %}
+        <li><a href="{{ l.url }}" rel="me">{{ l.label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <figure class="hero-fig">
+      <div class="panel">
+        <div class="sphere">
+          <canvas id="bloch" role="img"
+            aria-label="Husimi Q function of a large spin on the Bloch sphere. A blue blob precesses around the sphere while repeated weak measurements of the z component make it wander, smear into bands of fixed S_z, and refocus."></canvas>
+          <svg id="bloch-svg" aria-hidden="true"></svg>
+        </div>
+        <div class="strip"><canvas id="bloch-pm" aria-hidden="true"></canvas></div>
+      </div>
+      <figcaption>
+        <strong>Fig. 1.</strong> Quantum trajectory of a large spin (<i>S</i>&nbsp;=&nbsp;25) whose <i>z</i> component is
+        weakly and continuously measured. Dynamics are represented by the Husimi <i>Q</i> function on a Bloch sphere. 
+        <!-- A spin-coherent state (blue blob: Husimi <i>Q</i> function on the Bloch sphere;
+        paler on the far side) is squeezed in <i>S</i><sub>z</sub> and smeared into a ring as the record accumulates,
+        ending in a definite <i>S</i><sub>z</sub>.  -->
+        Amber: Mean spin &#10216;<b><i>S</i></b>&#10217; and its path.
+        Right: Distribution of fixed-<i>S</i><sub>z</sub> amplitudes.
+        <span class="fig-actions">
+          <button type="button" class="linklike" id="bloch-new">New trajectory</button>
+          <button type="button" class="linklike" id="bloch-field" aria-pressed="false">Transverse field: off</button>
+        </span>
+        <span class="readout" id="bloch-readout"></span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="block" id="research">
+  <div class="container">
+    <div class="section-head">
+      <h2>Research</h2>
+      <a href="{{ '/research/' | relative_url }}">All research</a>
+    </div>
+    <p class="section-intro">
+      My work explores quantum matter and many-body dynamics in settings that are accessible to current or
+      near-term quantum simulators, from ultracold atoms to quantum computers.
+    </p>
+    {% include research-list.html %}
+  </div>
+</section>
+
+<section class="block" id="selected">
+  <div class="container">
+    <div class="section-head">
+      <h2>Selected publications</h2>
+      <a href="{{ '/publications/' | relative_url }}">All publications</a>
+    </div>
+    <ul class="pubs">
+      {%- assign selected = site.data.preprints | where: "selected", true -%}
+      {%- for paper in selected %}
+        {% include pub-item.html pub=paper %}
+      {%- endfor %}
+      {%- assign selected = site.data.publications | where: "selected", true -%}
+      {%- for paper in selected %}
+        {% include pub-item.html pub=paper %}
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="block" id="about">
+  <div class="container narrow-left">
+    <h2>About</h2>
+    <div class="prose">
+      <p>I am a postdoctoral scholar at the <a href="https://www.kitp.ucsb.edu">Kavli Institute for Theoretical Physics</a>.
+      I received my Ph.D. in theoretical physics from <a href="https://www.cornell.edu">Cornell University</a>,
+      where I studied under <a href="https://www.lassp.cornell.edu/erich-mueller-group">Erich Mueller</a>.
+      My undergraduate degree is in Physics and Italian from <a href="https://www.georgetown.edu/">Georgetown University</a>,
+      where I rowed on the lightweight crew team.</p>
+      <p>Outside of physics, I enjoy cooking, traveling, hiking, rock climbing and playing tennis.</p>
+    </div>
+  </div>
+</section>

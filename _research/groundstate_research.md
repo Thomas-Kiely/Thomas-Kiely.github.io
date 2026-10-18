@@ -3,17 +3,21 @@
 title: "Strongly-Correlated Phases"
 layout: single-portfolio
 author_profile: true
-excerpt: "<img src='/images/K_fig.png' alt=''>"
+excerpt: "<img src='/images/intro_WM_fig2.png' alt=''>"
 collection: research
 order_number: 3
 header: 
   og_image: "/heatMapFig2.png"
 ---
 
-<p float="left">
+<!-- <p float="left">
   <img src="/images/K_fig.png" alt="isolated" width="250"/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="/images/schematic_WM_fig.png" alt="isolated" width="250"/>
+</p> -->
+
+<p float="left">
+  <img src="/images/intro_WM_fig2.png" alt="isolated" width="600"/>
 </p>
 
 ## Background

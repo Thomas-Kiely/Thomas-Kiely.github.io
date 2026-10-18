@@ -1,0 +1,18 @@
+{%- comment -%}
+  One teaching entry.  Usage: {% include course-item.html course=entry %}
+{%- endcomment -%}
+{%- assign c = include.course -%}
+<li class="course">
+  <h3 class="course-title">{{ c.code }}: {{ c.title }}</h3>
+  <!-- <p class="course-term">{{ c.role }}, {{ c.term }}, {{ c.institution }}</p> -->
+  <p class="course-term">{{ c.role }}</p>
+  <!-- <p class="course-meta">{{ c.level }} course{% if c.instructor %} led by {{ c.instructor }}{% endif %}</p> -->
+  <!-- {%- if c.description %}
+  <p class="course-desc">{{ c.description }}</p>
+  {%- endif %} -->
+  {%- if c.evaluations %}
+  <p class="pub-links"><span class="links-label">Instructor evaluations</span>
+    {%- for e in c.evaluations %}<a class="pill" href="{{ e.url | relative_url }}">{% include icon.html name="pdf" %}{{ e.label }}</a>{% endfor -%}
+  </p>
+  {%- endif %}
+</li>

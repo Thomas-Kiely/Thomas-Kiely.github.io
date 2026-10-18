@@ -1,0 +1,9 @@
+# ONLY for previewing this starter folder on its own:
+#   bundle exec jekyll serve --config _config.standalone.yml
+# Do not copy this into your real repo; your own _config.yml is the one to use there.
+title: Thomas Kiely
+url: ""
+baseurl: ""
+collections:
+  teaching:
+    output: true

@@ -1,0 +1,23 @@
+{%- comment -%}
+  One publication or preprint.  Usage: {% include pub-item.html pub=paper %}
+{%- endcomment -%}
+{%- assign p = include.pub -%}
+<li class="pub" data-tags="{{ p.tags | join: ' ' }}">
+  <h3 class="pub-title">{{ p.title }}</h3>
+  <p class="pub-authors">{{ p.authors | replace: "Thomas G. Kiely", "<strong>Thomas G. Kiely</strong>" }}</p>
+  <p class="pub-venue">
+    {%- if p.venue -%}
+      {{ p.venue }}
+    {%- else -%}
+      <em>{{ p.journal }}</em> <strong>{{ p.volume }}</strong>, {{ p.article }} ({{ p.year }})
+    {%- endif -%}
+    {%- if p.note %} <span class="badge">{{ p.note }}</span>{% endif -%}
+  </p>
+  {%- if p.links %}
+  <p class="pub-links">
+    {%- if p.links.doi %}<a class="pill" href="{{ p.links.doi }}">{% include icon.html name="doi" %}DOI</a>{% endif -%}
+    {%- if p.links.arxiv %}<a class="pill" href="{{ p.links.arxiv }}">{% include icon.html name="arxiv" %}arXiv</a>{% endif -%}
+    {%- if p.links.pdf %}<a class="pill" href="{{ p.links.pdf | relative_url }}">{% include icon.html name="pdf" %}PDF</a>{% endif -%}
+  </p>
+  {%- endif %}
+</li>

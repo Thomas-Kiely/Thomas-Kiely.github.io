@@ -6,9 +6,9 @@ permalink: /publication/2022-07-27-Sr2RuO4Domains
 excerpt: ''
 date: 2022-07-27
 venue: 'Physical Review B'
-paperurl: 'http://thomas-kiely.github.io/files/sr2ruo4_domains.pdf'
+paperurl: 'http://thomas-kiely.github.io/files/sr2ruo4_paper.pdf'
 link: 'https://doi.org/10.1103/PhysRevB.106.024520'
-citation: 'Sayak Ghosh, Thomas G. Kiely, Arkady Shekhter, F. Jerzembeck, N. Kikugawa, Dmitry A. Sokolov, A. P. Mackenzie, and B. J. Ramshaw, Phys. Rev. B <b>106</b>, 024520 (2022)'
+citation: 'Sayak Ghosh, Thomas G. Kiely, Arkady Shekhter, F. Jerzembeck, N. Kikugawa, Dmitry A. Sokolov, A. P. Mackenzie and B. J. Ramshaw, Phys. Rev. B <b>106</b>, 024520 (2022)'
 arxiv: 'https://arxiv.org/abs/2109.00041'
 ---
 <!-- This paper is about the number 1. The number 2 is left for future work.

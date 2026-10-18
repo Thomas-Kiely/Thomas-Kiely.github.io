@@ -1,0 +1,50 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: Journal articles and preprints by Thomas Kiely.
+redirect_from:
+  - /preprints/
+---
+{%- assign papers = site.data.publications -%}
+{%- assign preprints = site.data.preprints -%}
+<div class="container page">
+  <h1 class="page-title">Publications</h1>
+  <p class="page-sub">
+    Also on <a href="{{ site.data.profile.links[0].url }}">Google Scholar</a>.
+  </p>
+
+  <div class="chips" role="group" aria-label="Filter by research theme">
+    <button type="button" class="chip" data-filter="all" aria-pressed="true">All <span>{{ papers.size | plus: preprints.size }}</span></button>
+    {%- for t in site.data.research %}
+    {%- assign all_items = papers | concat: preprints %}
+    {%- assign n = all_items | where_exp: "x", "x.tags contains t.tag" | size %}
+    <button type="button" class="chip" data-filter="{{ t.tag }}" aria-pressed="false">{{ t.title }} <span>{{ n }}</span></button>
+    {%- endfor %}
+  </div>
+
+  {%- if preprints.size > 0 %}
+  <section class="pub-group" aria-labelledby="g-preprints">
+    <h2 class="pub-year" id="g-preprints">Preprints</h2>
+    <ul class="pubs">
+      {%- for paper in preprints %}
+        {% include pub-item.html pub=paper %}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  {%- assign by_year = papers | group_by: "year" | sort: "name" | reverse %}
+  {%- for g in by_year %}
+  <section class="pub-group" aria-labelledby="g-{{ g.name }}">
+    <h2 class="pub-year" id="g-{{ g.name }}">{{ g.name }}</h2>
+    <ul class="pubs">
+      {%- for paper in g.items %}
+        {% include pub-item.html pub=paper %}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
+
+  <p class="empty" id="pub-empty" hidden>No publications match this filter.</p>
+</div>

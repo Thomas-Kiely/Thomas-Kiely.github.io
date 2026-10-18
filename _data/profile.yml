@@ -1,0 +1,40 @@
+name: Thomas Kiely
+role: Postdoctoral Scholar
+affiliation: Kavli Institute for Theoretical Physics
+location: Santa Barbara, CA
+email: thomaskiely@ucsb.edu
+headshot: /images/professional_headshot.jpg
+# Where the circular crop is centered on the photo: "horizontal% vertical%".
+# 50% 50% is the middle. Lower the 2nd number to move the crop UP toward the top of the photo
+# (usually what you want for a portrait); raise it to move DOWN. Same idea for the 1st number, left/right.
+headshot_position: "50% 0%"
+# Search-result text. Keep the title under ~60 characters and the description under ~160.
+home_title: "Thomas Kiely | Theoretical Physicist, Kavli Institute for Theoretical Physics"
+description: Postdoctoral scholar at KITP working on strongly correlated quantum matter and quantum dynamics.
+
+# Structured data (helps Google tie your name, affiliation and profiles together).
+alternate_names: ["Thomas G. Kiely"]          # the name on your papers: valuable for disambiguation
+affiliation_name: Kavli Institute for Theoretical Physics
+affiliation_url: https://www.kitp.ucsb.edu
+parent_org: University of California, Santa Barbara
+alumni_of: [Cornell University, Georgetown University]
+knows_about: [Condensed matter theory, Strongly correlated quantum matter, Open and monitored quantum systems, Quantum many-body dynamics, Tensor networks, Quantum simulation]
+google_site_verification: ""                   # paste the token from Google Search Console if you use it
+
+tagline: >-
+  I study strongly correlated quantum matter and how it behaves out of
+  equilibrium, focusing on problems that today's quantum simulators can test.
+
+# Top navigation. Preprints now live on the Publications page.
+nav:
+  - { label: Research,     url: /research/ }
+  - { label: Publications, url: /publications/ }
+  - { label: Teaching,     url: /teaching/ }
+  - { label: CV,           url: /cv/ }
+
+# Shown under the hero and in the footer of every page.
+links:
+  - { label: Google Scholar, url: "https://scholar.google.com/citations?user=VdWnKMoAAAAJ&hl=en" }
+  - { label: ORCID,          url: "https://orcid.org/0000-0003-2035-452X" }
+  - { label: GitHub,         url: "https://github.com/Thomas-Kiely" }
+  - { label: LinkedIn,       url: "https://www.linkedin.com/in/thomas-kiely-6aa4b5aa" }

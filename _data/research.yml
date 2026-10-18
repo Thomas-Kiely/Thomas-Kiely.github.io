@@ -1,0 +1,21 @@
+# One entry per research theme. `tag` must match the tags used in publications.yml.
+# `url` points at your existing research sub-pages.
+- title: Transport properties
+  tag: transport
+  url: /research/transport_research/
+  summary: How charge, spin and heat move through strongly interacting, low-dimensional quantum systems.
+
+- title: Open and monitored dynamics
+  tag: open
+  url: /research/opensystems_research/
+  summary: Out-of-equilibrium states produced by measurement or dissipation, increasingly relevant for quantum computers.
+
+- title: Strongly correlated phases
+  tag: phases
+  url: /research/groundstate_research/
+  summary: Ground states and equilibrium phases where quantum fluctuations compete with strong interactions.
+
+- title: Numerical methods
+  tag: numerics
+  url: /research/tensorNetworks_research/
+  summary: Efficient classical simulation of quantum states with tensor networks, numerical path integrals and machine learning.

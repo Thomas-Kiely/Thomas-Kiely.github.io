@@ -2,14 +2,14 @@
 title: "Numerical Methods"
 layout: single-portfolio
 author_profile: true
-excerpt: "<img src='/images/boseHubbardPanelCropped.png' alt=''>"
+excerpt: "<img src='/images/boseHubbardPanelCropped_wbg.png' alt=''>"
 collection: research
 order_number: 4
 header: 
   og_image: "/boseHubbardPanelCropped.png"
 ---
 
-<img src="/images/boseHubbardPanelCropped.png" alt="isolated" width="300"/>
+<img src="/images/boseHubbardPanelCropped_wbg.png" alt="isolated" width="400"/>
 
 ## Tensor networks & quantum mechanics
 
